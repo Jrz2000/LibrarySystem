@@ -1,0 +1,33 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/index/index",
+        "pages/search/search",
+        "pages/library/library",
+        "pages/book/book"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "至诚图书管理系统",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "index",
+            "iconPath": "iconPath",
+            "selectedIconPath": "selectedIconPath"
+        },
+        {
+            "pagePath": "pages/library/library",
+            "text": "library",
+            "iconPath": "iconPath",
+            "selectedIconPath": "selectedIconPath"
+        }]
+    }
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}
